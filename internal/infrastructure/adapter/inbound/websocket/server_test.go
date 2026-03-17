@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
-	adapter "github.com/apex20/monorepo/apps/ws-service/internal/infrastructure/adapter/inbound/websocket"
+	adapter "github.com/apex20/ws/internal/infrastructure/adapter/inbound/websocket"
 )
 
 func TestWSServer_Connection(t *testing.T) {
